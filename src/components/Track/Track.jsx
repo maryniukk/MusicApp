@@ -12,7 +12,7 @@ const Track = (track) => {
       <IconButton>
         <PlayArrow />
       </IconButton>
-      <img className={style.preview} src={preview} alt="" />
+      <img className={style.preview} src={preview} alt="123" />
       <div className={style.credits}>
         <b>{title}</b>
         <p>{artists}</p>
